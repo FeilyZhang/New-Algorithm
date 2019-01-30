@@ -21,7 +21,6 @@ public class InsertSort {
         for (int i = 1; i < arrays.length; i++) {
             int temp = arrays[i];   //待插入的元素
             int j = i;
-            // j位置的元素与之前的全部依次比较，以插入到合适的位置
             // arrays[j - 1] > temp中的大于号变成小于号就是降序排序
             for (; j > 0 && arrays[j - 1] > temp; j--) {   // j大于0是因为j要减一，防止下标越界
                 arrays[j] = arrays[j - 1];
