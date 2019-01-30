@@ -1,15 +1,4 @@
-/**  
- * @Title:  QuickSort.java   
- * @Package tech.feily.algorithm   
- * @Description:    TODO(用一句话描述该文件做什么)   
- * @author: Feily Zhang     
- * @date:   2019年1月30日 下午6:21:24   
- * @version V1.0 
- * @Copyright: All rights Reserved, Designed By https://feily.tech
- */
 package tech.feily.algorithm;
-
-import java.util.Arrays;
 
 /**
  * @author Administrator 
