@@ -1,8 +1,8 @@
 package tech.feily.algorithm;
 
 /**
- * @author Administrator 
- * @date : 2019-2-1 7:59:02
+ * @author : Feily Zhang
+ * @date : 2019-2-1 19:59:02
  * @version : V1.0 
  * @Description :  
  * @Copyright : All rights Reserved, Designed By https://feily.tech.
