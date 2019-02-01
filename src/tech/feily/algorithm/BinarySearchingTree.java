@@ -2,7 +2,7 @@ package tech.feily.algorithm;
 
 /**
  * @author Administrator 
- * @date : 2019年2月1日下午7:59:02
+ * @date : 2019-2-1 7:59:02
  * @version : V1.0 
  * @Description :  
  * @Copyright : All rights Reserved, Designed By https://feily.tech.
@@ -31,7 +31,7 @@ public class BinarySearchingTree {
         }
     }
     public static void main(String[] args) {
-        // 先初始化树
+        // Initialize the binary search tree.
         BinaryTree bt = new BinaryTree();
         BinaryTreeNode btn = new BinaryTreeNode();
         btn.setData(2);
@@ -48,7 +48,7 @@ public class BinarySearchingTree {
         System.out.println("------");
         bt.postOrder(bt.getRoot());
         System.out.println("------------");
-        
+        // Perform a query operation.
         BinarySearchingTree bst = new BinarySearchingTree(bt.getRoot());
         System.out.println(bst.search(2).getData());
     }
